@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:Mucho arte
+autor: Franco Sejas Vásquez
+fecha: Marzo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Mucho arte</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos externa-->
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="00-modelo.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+	</style>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body>
+
+	<div class="marco">
+		<header class="encabezado">
+			<div id="divDerecha">
+				<p>¡Hola <span id="aqui"></span>!</p>
+				<form name="miFormulario" onSubmit="return borraUsr()">
+					<input id="input" type="submit" value="Salir">
+				</form>
+			</div>
+
+			<div class="ParrafoCentrado" id="divCentral">
+				<h1>Mucho arte</h1>
+			</div>
+
+			<div id="divIzquierda">
+
+				<img id="imagen" src="C:\DAW\Lenguaje_de_marcas\img\camera-1300440_1280.png"
+					 alt="arte" />
+			</div>
+
+		</header>
+		<div class="migas"><nav class="BarraNavegacion">
+			<ul>
+				<li class="menuDesplegable">
+					<a>
+						Inicio
+					</a>
+
+				</li>
+				
+				<li><a href="Actualidad.html"target="_self">Actualidad</a></li>
+			
+				<li class="menuDesplegable">
+					<a>
+						Fotografía
+					</a>
+					<div class="menuDesplegable-contenido">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+
+				<li class="menuDesplegable">
+					<a>
+						Dibujo
+					</a>
+					<div class="menuDesplegable-contenido">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+
+				<li class="menuDesplegable">
+					<a>
+						Poesía
+					</a>
+					<div class="menuDesplegable-contenido">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+
+				<li class="menuDesplegable">
+					<a>
+						Música
+					</a>
+					<div class="menuDesplegable-contenido">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+
+				<li class="menuDesplegable">
+					<a>
+						Cine
+					</a>
+					<div class="menuDesplegable-contenido">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+
+				<li class="menuDesplegable">
+					<a>
+						Consejos
+					</a>
+					<div class="menuDesplegable-contenido">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+
+				<li class="menuDesplegable">
+					<a>
+						Tatuajes
+					</a>
+					<div class="menuDesplegable-contenido">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+
+				<li class="menuDesplegable">
+					<a>
+					Sobre nosotros	
+					</a>
+					<div class="menuDesplegable-contenido">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+
+			</ul>
+		</nav></div>
+		<aside class="lado">
+		<ul>
+			<li id="navLateral" class="ParrafoCentrado"><a id="lateralA" href="index.html" target="_self">Inicio</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a  id="lateralA" href="Actualidad.html">Actualidad</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a  id="lateralA" href="#">Fotografía</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a id="lateralA" href="#">Dibujo</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a  id="lateralA" href="#">Poesía</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a  id="lateralA" href="#">Música</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a  id="lateralA" href="#">Cine</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a  id="lateralA" href="#">Consejos</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a  id="lateralA" href="#">Tatuajes</a></li>
+			<li id="navLateral" class="ParrafoCentrado"><a  id="lateralA" href="#">Sobre nosotros</a></li>
+		</ul>	
+		</aside>
+		<div class="contenido">
+			<p>Muy buenas querido visitante, primeramente me gustaría informarte de que esta pagina está hecha para yo poder compartir aquello que me interese, siempre enfocado en el arte claro.<br>
+		<img class="imagen1" src="C:\DAW\Lenguaje_de_marcas\img\contenido\IMG_20181203_074034.jpg"/>
+			Publicare contenido relacionado a la fotografía, la música, la poesía, el dibujo, el cine, el tatuaje, consejos de algunos artistas y lo que me apetezca en general.<br>
+			A lo mejor un día pongo fotos, que otro pongo música que voy descubriendo y al siguiente escribo algún artículo de opinion.<br>
+		<img class="imagen2" src="C:\DAW\Lenguaje_de_marcas\img\contenido\IMG_20181111_144155.jpg"/>
+			porpeqwrowpqropw qerowpqeroqwperoq wperowqpropqeropwqrowpqer owprowqperwope rqw<br>
+			sdaffsadfsadfsadfsadfsad dsaf asdfsdaf sdafsadf sadf sadfsdafsadfsadf dsa<br>
+			</p>
+		</div>
+		
+		<footer class="pie">frsvt96@gmail.com<br>2021</footer>
+		<script src="logout.js"></script>
+	</div>
+
+
+</body>
+</html>
